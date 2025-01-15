@@ -1,0 +1,33 @@
+` this is a very simplifed version of Spoon made in SigmaGreg. The original spoon can be found here: 
+
+`variables start
+xp:
+money = 777
+spoonname:
+username:
+start:
+buy:
+
+` variables end
+
+` game start
+
+gregPr "  ____  _____     ___     ___     ___    "
+gregPr " /',__\/\ '__`\  / __`\  / __`\ /' _ `\  "
+gregPr " /\__, `\ \ \L\ \/\ \L\ \/\ \L\ \/\ \/\ \ "
+gregPr " \/\____/\ \ ,__/\ \____/\ \____/\ \_\ \_\"
+gregPr "  \/___/  \ \ \/  \/___/  \/___/  \/_/\/_/"
+gregPr "           \ \_\                          "
+gregPr "            \/_/                          "
+gregPr "welcome to spoon SGC version"
+gregPr "type start to start the game (lowercase plz)"
+gregIn start
+
+if (start == "yes") then (gregPr "starting game...\n") else (gregPr "starting anyway...\n")
+
+gregPr "\n-------------------------------------------------------\n"
+gregPr "ninja: Welcome to the spoon adoption place, I am the granpapa of all the\nspoons here, greg. Wait, You're not greg, what is your name, random person?\n";
+gregIn username
+if (username == "greg") then (gregPr "oh so you are greg, mb") else (gregPr f"ninja: ok so {username}, let's take you over to the spoon viewing area so you can check out the pet spoons"
+
+
